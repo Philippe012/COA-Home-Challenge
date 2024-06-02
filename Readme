@@ -1,0 +1,91 @@
+Task 1
+
+UI Challenge: Interactive Photo Gallery
+
+This repository contains files for an Interactive Photo Gallery web page. The web page allows users to view a gallery of thumbnail images and interactively switch between them to view a larger version along with image details.
+
+ Table of Contents
+
+> Overview
+> Files Included
+> How to Use
+> Features
+> Credits
+
+ Overview
+
+The Interactive Photo Gallery web page consists of a gallery section with thumbnail images displayed in a grid layout. When a thumbnail image is clicked, the main image displayed at the top of the page is updated to show the larger version of the clicked image. Actually, the title and description of the clicked image are displayed below the main image.
+
+The web page is responsive and adjusts its layout for different screen sizes. On smaller screens, the thumbnail images are displayed in a centered grid layout, while on larger screens, they are aligned to the left with the main image and image details displayed alongside.
+
+Files Included
+
+- index.html: The HTML file that defines the structure of the web page, including the gallery section with thumbnail images, main image, and image details.
+- styles.css: The CSS file that contains styles for the layout, design, and responsiveness of the web page.
+- script.js: The JavaScript file that adds interactivity to the web page, including functionality to switch between images and display image details.
+
+ How to Use
+
+To use the Interactive Photo Gallery web page:
+
+1. Clone this repository to your local machine.
+2. Open the index.html file in a web browser.
+
+You can click on any thumbnail image to view its larger version along with its title and description. Hovering over a thumbnail image will slightly enlarge it and blur the other thumbnails for better visibility.
+
+ Features
+
+- View a gallery of thumbnail images.
+- Click on a thumbnail image to view its larger version.
+- Display the title and description of each image.
+- Responsive layout for different screen sizes.
+
+ Credits
+
+This project was solved by Philippe Mugisha as a practice exercise. The thumbnail images used in the gallery are placeholders and can be replaced with actual images as desired.
+
+Feel free to explore, modify, and use this code for your own projects! If you find any issues or have suggestions for improvement, please feel free to contribute by submitting a pull request.
+
+
+Coding Challenge 1: Array Manipulation
+
+Subarray Sum Checker
+
+This repository contains a JavaScript function designed to determine if an array contains a contiguous subarray that sums to a specified target value.
+
+ Overview
+
+The hasSubarrayWithSum function iterates through the array, maintaining a running sum and adjusting the starting point of the subarray to check if any contiguous subarray meets the target sum. It uses a sliding window technique to efficiently find the desired subarray.
+
+ Features
+
+- Efficient: Utilizes a sliding window approach for optimal performance.
+- Simple Interface: Easy-to-use function with clear input and output.
+- Real-World Application: Useful for solving problems related to subarray sums in various programming and algorithmic contexts.
+
+ Example
+
+The function can determine if a given list, such as `[1, 2, 3, 4, 5]`, has a contiguous subarray that sums to a target value, like `9`.
+
+
+ License
+
+This project is open for use and modification. Contributions are welcome.
+
+Coding Challenge 2: String Transformation
+
+ Contiguous Subarray Sum Checker
+
+This repository contains a JavaScript function that determines if there is a contiguous subarray within an array that sums to a specified target value.
+
+ Overview
+
+The `hasContiguousSubarrayWithSum` function iterates through the array while maintaining a running sum and a set of prefix sums. It checks if the current sum or any previous sum adjusted by the target exists in the set, indicating a valid subarray. This method ensures efficient and accurate results.
+
+ Usage
+
+Users input an array and a target sum via prompts. The function then processes this data to check for a matching subarray and outputs the result.
+
+ License
+
+This project is open for use and modification. Contributions are welcome.
